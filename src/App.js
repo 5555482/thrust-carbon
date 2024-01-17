@@ -1,5 +1,16 @@
+import Pages from "./pages/Pages";
+import { BrowserRouter } from "react-router-dom";
+import Search from "./components/Search";
+
 function App() {
-  return <div className="text-3xl font-bold underline">Hello</div>;
+  return (
+    <h1>
+      <BrowserRouter>
+        <Search />
+        <Pages />
+      </BrowserRouter>
+    </h1>
+  );
 }
 
 export default App;
