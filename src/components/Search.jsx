@@ -11,7 +11,7 @@ function Search() {
   };
 
   return (
-    <form onSubmit={handleSearchSubmit} className="m-32 flex items-center space-x-4 content-center">
+    <form onSubmit={handleSearchSubmit} className="mr-32 ml-32 mt-10 mb-10 flex items-center space-x-4 content-center">
       <input
         type="text"
         placeholder="Search..."
